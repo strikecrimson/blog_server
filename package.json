@@ -1,0 +1,31 @@
+{
+  "name": "blog_server",
+  "version": "1.0.0",
+  "description": "A custom blog,builded for learning and test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon ./src/app.ts",
+    "build":"tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strikecrimson/blog_server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strikecrimson/blog_server/issues"
+  },
+  "homepage": "https://github.com/strikecrimson/blog_server#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.9",
+    "typescript": "^5.1.6"
+  }
+}
